@@ -1,3 +1,6 @@
+Link de proyecto deployado en Vercel:
+https://clase-4-angular-pukn.vercel.app
+
 Proyecto donde se aplican conceptos como modulos,routing,rutas dinamicas,lazy loading,local storage.
 Se crea module App,Productos y Usuarios,tambien se usan rutas dinamicas en el module productos.
 Se usa routerlink para moverse entre paginas y router-outlet para el renderizado de cada componente.
