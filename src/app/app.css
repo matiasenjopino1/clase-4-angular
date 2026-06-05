@@ -1,0 +1,16 @@
+nav {
+    background: #bddfbd;
+    height: 60px;
+    padding: 25px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.contenedor {
+    height: calc(100% - 60px);
+    background-color: aliceblue;
+}

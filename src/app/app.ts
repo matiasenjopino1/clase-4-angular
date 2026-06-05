@@ -1,4 +1,5 @@
-import { Component, signal } from '@angular/core';
+import { Component, OnInit, signal } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,6 +7,19 @@ import { Component, signal } from '@angular/core';
   standalone: false,
   styleUrl: './app.css'
 })
-export class App {
+export class App implements OnInit {
   protected readonly title = signal('clase-4');
+
+  constructor(private router:Router) {
+
+  }
+  ngOnInit(): void {
+    const ultimaRuta =  localStorage.getItem('moduloUltimo')
+    if(ultimaRuta)
+      this.router.navigateByUrl(ultimaRuta)
+  }
+
+  guardarModulo(modulo:any){
+    localStorage.setItem('moduloUltimo',modulo)
+  }
 }
