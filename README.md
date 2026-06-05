@@ -18,7 +18,7 @@ Captura de pantalla de vista usuario:
 ![App con vista usuarios](screenshots/vista-usuario.png)
 
 Captura de pantalla de la vista detalle:
-![App con vista detalle](screenshots/vista-producto11.png)
+![App con vista detalle](screenshots/vista-producto.png)
 
 Captura de pantalla de la vista detalle dinamica con id:
 ![App con vista detalle dinamica](screenshots/vista-detalle-producto.png)
